@@ -1,0 +1,58 @@
+
+
+<html>
+<head>
+  <title>Simple Form</title>
+</head>
+<style>
+  body {
+      background-color:lightpink;
+     
+      background-size: cover;
+    }
+    form {
+      background-color:;
+      padding: 20px;
+      border-radius: 10px;
+      width:100%;
+      margin: auto;
+</style>
+  <h1 align=center>Personal Information</h1>
+  <form>
+    
+      <label for="fname">First Name:</label><br>
+      <input type="text" placeholder="Enter your Firstname" id="fname" name="fname"required/><br><br>
+      <label for="Lname">Last Name:</label><br>
+      <input type="text" placeholder="Enter your Lastname" id="Lname" name="Lname"required/><br><br>
+      <label for="Gender">Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+      <label for="Age">Age:</label><br>
+      <input type="text" id="Age" name="Age"required/><br><br>
+      <label for="DOB">Date of Birth:</label><br>
+      <input type="date" id="DOB" name="DOB"required/><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" placeholder="email@gmail.com" id="email" name="email"required/><br><br>
+      <label for="password">Password:</label><br>
+      <input type="text" id="password" name="password"required/><br><br>
+      <label for="Phone">Mobile:</label><br>
+      <input type="tel" id="phone" name="phone"required/><br><br>
+      <label for="Hobbies">Hobbies:</label><br>
+      <input type="checkbox" id="drawing" name="hobbies" value="drawing" required/>
+      <label for="drawing">drawing</label><br>
+      <input type="checkbox" id="music hearing" name="hobbies" value="music hearing" required/>
+      <label for="music hearing">music hearing</label><br>
+      <input type="checkbox" id="games" name="hobbies" value="games"required/>
+      <label for="Games">Games</label><br><br>
+      <label for="Address"><strong>Address:</strong></label><br>
+      <textarea name="address"  id="address"></textarea><br><br>
+      <input type="button"  value="Submit"required/>
+      <input type="button" value="Reset" required/>
+  
+  </form>
+</body>
+</html>
